@@ -5,13 +5,13 @@ interface IAuth {
   accessToken: string;
 }
 
-const auth = async (email: string, password: string): Promise<IAuth | Error> => {
+const auth = async (email: string, senha: string): Promise<IAuth | Error> => {
   try {
     // 👇 CORREÇÕES APLICADAS:
     // 1. Mude de GET para POST
     // 2. Use a URL correta '/entrar'
     // 3. Envie os dados no body corretamente
-    const { data } = await Api.post('/entrar', { email, password });
+    const { data } = await Api.post('/entrar', { email, senha });
 
     if (data && data.accessToken) {
       return data;
