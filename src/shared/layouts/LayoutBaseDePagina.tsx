@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { ReactNode } from 'react';
 import { Icon, IconButton, Theme, Typography, useMediaQuery, useTheme } from '@mui/material';
 import { Box } from '@mui/system';

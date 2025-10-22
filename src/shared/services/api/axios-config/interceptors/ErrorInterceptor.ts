@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { AxiosError } from 'axios';
 
 

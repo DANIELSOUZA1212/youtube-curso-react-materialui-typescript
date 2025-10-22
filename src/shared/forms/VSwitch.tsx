@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { useEffect, useState } from 'react';
 import { Switch, SwitchProps } from '@mui/material';
 import { useField } from '@unform/core';

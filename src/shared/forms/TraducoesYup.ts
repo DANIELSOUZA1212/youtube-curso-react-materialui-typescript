@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { setLocale } from 'yup';
 
 setLocale({

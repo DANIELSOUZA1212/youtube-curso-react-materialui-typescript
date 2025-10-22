@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { useState } from 'react';
 import { Box, Button, Card, CardActions, CardContent, CircularProgress, TextField, Typography } from '@mui/material';
 import * as yup from 'yup';

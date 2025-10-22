@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { createContext, useCallback, useContext, useState } from 'react';
 
 interface IDrawerOption {

@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { createTheme } from '@mui/material';
 import { cyan, yellow } from '@mui/material/colors';
 

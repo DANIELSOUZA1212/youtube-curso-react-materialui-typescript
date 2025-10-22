@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 export * from './VNumericFormat';
 export * from './VPatternFormat';
 export * from './IVFormErrors';

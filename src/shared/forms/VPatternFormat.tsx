@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React, { useEffect, useState } from 'react';
 import { TextField, TextFieldProps } from '@mui/material';
 import { PatternFormatProps, PatternFormat } from 'react-number-format';

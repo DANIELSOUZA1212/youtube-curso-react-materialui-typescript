@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
 
 import { AuthService } from '../services/api/auth/AuthService';

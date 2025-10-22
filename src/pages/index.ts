@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 export * from './pessoas/ListagemDePessoas';
 export * from './pessoas/DetalheDePessoas';
 export * from './cidades/ListagemDeCidades';

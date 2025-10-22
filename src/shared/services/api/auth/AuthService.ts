@@ -1,5 +1,5 @@
+/* eslint-disable linebreak-style */
 import { Api } from '../axios-config';
-
 
 interface IAuth {
   accessToken: string;
@@ -7,9 +7,13 @@ interface IAuth {
 
 const auth = async (email: string, password: string): Promise<IAuth | Error> => {
   try {
-    const { data } = await Api.get('/auth', { data: { email, password } });
+    // 👇 CORREÇÕES APLICADAS:
+    // 1. Mude de GET para POST
+    // 2. Use a URL correta '/entrar'
+    // 3. Envie os dados no body corretamente
+    const { data } = await Api.post('/entrar', { email, password });
 
-    if (data) {
+    if (data && data.accessToken) {
       return data;
     }
 

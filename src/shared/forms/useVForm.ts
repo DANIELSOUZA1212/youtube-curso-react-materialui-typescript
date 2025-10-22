@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { FormHandles } from '@unform/core';
 import { useCallback, useRef } from 'react';
 

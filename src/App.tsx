@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { BrowserRouter } from 'react-router-dom';
 
 import './shared/forms/TraducoesYup';
